@@ -1,4 +1,7 @@
-from pytube import YouTube
+# originally I used pytube but it is broken now
+# another cool option with lots of github stars is yt-dlp, but it is havier
+# from pytube import YouTube
+from pytubefix import YouTube
 import tkinter as tk
 from tkinter import filedialog
 
